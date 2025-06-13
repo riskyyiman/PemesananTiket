@@ -13,25 +13,25 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="s">
         <activity
-            android:name=".view.history.HistoryActivity"
+            android:name="risky.pemesanantiket.view.history.HistoryActivity"
             android:exported="true" />
         <activity
-            android:name=".view.input.DataPesawatActivity"
+            android:name="risky.pemesanantiket.view.input.DataPesawatActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".view.input.DataKeretaActivity"
+            android:name="risky.pemesanantiket.view.input.DataKeretaActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".view.input.DataKapalActivity"
+            android:name="risky.pemesanantiket.view.input.DataKapalActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".view.main.MainActivity"
+            android:name="risky.pemesanantiket.view.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
